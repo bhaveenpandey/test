@@ -113,3 +113,6 @@ elif chc==5:
     c=hill_enc(text,k);print("Cipher:",c);print("Decrypt:",hill_dec(c,k))
 else:
     print("Invalid choice!")
+
+
+print("this is for testing")
