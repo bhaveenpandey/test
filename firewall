@@ -1,0 +1,75 @@
+Firewalls are security systems (hardware, software, or both) that monitor and control incoming and outgoing network traffic based on predefined rules. They act as a barrier between trusted internal networks and untrusted external networks (like the internet).
+
+Here are the main **types of firewalls**:
+
+---
+
+### 🔹 1. **Packet-Filtering Firewall**
+
+* Works at the **network layer**.
+* Checks packets against rules (source/destination IP, port number, protocol).
+* Very fast, but basic (doesn’t inspect data inside packets).
+
+---
+
+### 🔹 2. **Circuit-Level Gateway**
+
+* Works at the **session layer**.
+* Verifies that connections (TCP handshakes) are legitimate.
+* Does not inspect packet content, only ensures the session is valid.
+
+---
+
+### 🔹 3. **Stateful Inspection Firewall**
+
+* Monitors the **state of active connections**.
+* Tracks the entire session instead of inspecting each packet individually.
+* More secure than packet-filtering and circuit-level firewalls.
+
+---
+
+### 🔹 4. **Proxy Firewall (Application-Level Gateway)**
+
+* Works at the **application layer**.
+* Acts as an intermediary between users and the internet.
+* Can inspect the actual content of traffic (e.g., HTTP requests).
+* Provides strong security but can slow down traffic.
+
+---
+
+### 🔹 5. **Next-Generation Firewall (NGFW)**
+
+* Combines traditional firewall features with:
+
+  * **Deep packet inspection (DPI)**
+  * **Intrusion prevention systems (IPS)**
+  * **Application awareness**
+  * **User identity management**
+* More advanced, suitable for modern threats.
+
+---
+
+### 🔹 6. **Cloud Firewalls (Firewall-as-a-Service, FWaaS)**
+
+* Hosted in the **cloud**, protecting cloud infrastructures.
+* Scalable and easy to manage remotely.
+
+---
+
+### 🔹 7. **Software Firewalls**
+
+* Installed on individual computers/servers.
+* Controls traffic for that specific device.
+* Example: Windows Firewall.
+
+---
+
+### 🔹 8. **Hardware Firewalls**
+
+* Standalone physical devices placed between the network and the internet.
+* Handle large amounts of traffic efficiently.
+* Often used in enterprise environments.
+
+---
+
+👉 Would you like me to create a **comparison table** (with pros, cons, and use cases) for these firewall types?
